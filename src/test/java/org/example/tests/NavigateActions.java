@@ -1,4 +1,4 @@
-package org.example.actions;
+package org.example.tests;
 
 import net.serenitybdd.annotations.Step;
 import net.serenitybdd.core.steps.UIInteractionSteps;

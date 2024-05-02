@@ -1,4 +1,4 @@
-package com.example;
+package org.example.steps;
 
 import net.serenitybdd.annotations.Step;
 import net.serenitybdd.core.pages.PageObject;

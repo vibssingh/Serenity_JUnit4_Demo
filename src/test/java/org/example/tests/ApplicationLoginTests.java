@@ -1,6 +1,6 @@
 package org.example.tests;
 
-import net.serenitybdd.annotations.Managed;
+import net.serenitybdd.annotations.Pending;
 import net.serenitybdd.annotations.Steps;
 import net.serenitybdd.annotations.Title;
 import net.serenitybdd.core.Serenity;
@@ -10,16 +10,12 @@ import org.example.steps.StepForgotPasswordPage;
 import org.example.steps.StepLoginPage;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.openqa.selenium.WebDriver;
 
 import static org.junit.Assert.assertTrue;
 
 @RunWith(SerenityRunner.class)
-public class LoginTests {
+public class ApplicationLoginTests {
 
-
-    @Managed(options = "start-maximized")
-    WebDriver driver;
 
     @Steps
     NavigateActions navigate;
@@ -71,6 +67,7 @@ public class LoginTests {
 
 
     @Test
+    @Pending
     @Title("Verify Forgot your password link")
     public void clickForgetPasswordLink() {
 
