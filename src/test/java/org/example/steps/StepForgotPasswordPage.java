@@ -1,4 +1,4 @@
-package org.example.tests;
+package org.example.steps;
 
 import net.serenitybdd.annotations.Step;
 import net.serenitybdd.core.pages.PageObject;
@@ -7,8 +7,9 @@ import org.openqa.selenium.support.FindBy;
 
 public class StepForgotPasswordPage extends PageObject {
 
-    @FindBy(xpath = "//*[@id='content']/div[1]/div[2]/h1")
+    @FindBy(xpath = "//*[@id='app']/div[1]/div[1]/div/form/h6")
     WebElementFacade forgetLink;
+
 
     @Step("Verify Forget Password Page ")
     public String getHeadingForgetPasswordPage() {
