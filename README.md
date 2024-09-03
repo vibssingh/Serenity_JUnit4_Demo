@@ -6,7 +6,7 @@ This is a sample application to demonstrate how to setup and run Serenity tests 
 Serenity – 4.0.30
 Java 17
 JUnit - 4.13.2
-Maven – 3.9.6
+Maven – 3.9.9
 ````
 
 2. To run the tests through command line, use the command
@@ -14,4 +14,6 @@ Maven – 3.9.6
 mvn clean verify
 ````
 
-3. Reports This framework contains sample Serenity Reports under target/site/serenity folder.
+3. Reports - This framework contains sample Serenity Reports under **_target/site/serenity_** folder.
+
+![img.png](img.png)
