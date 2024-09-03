@@ -13,23 +13,23 @@ public class StepLoginPage extends PageObject {
     @FindBy(name = "password")
     WebElementFacade password;
 
-    @FindBy(xpath = "//*[@id='app']/div[1]/div/div[1]/div/div[2]/div[2]/form/div[3]/button")
+    @FindBy(xpath = "//*[@class='oxd-form']/div[3]/button")
     WebElementFacade submitButton;
 
-    @FindBy(xpath = "//*[@id='app']/div[1]/div/div[1]/div/div[2]/div[2]/div/div[1]/div[1]/p")
+    @FindBy(xpath = "//*[@class='orangehrm-login-error']/div/div/p")
     WebElementFacade errorMessage;
 
-    @FindBy(xpath = "//*[@id='app']/div[1]/div/div[1]/div/div[2]/div[2]/form/div[4]/p")
+    @FindBy(xpath = "//*[@class='orangehrm-login-forgot']/p")
     WebElementFacade linkText;
 
     @Step("Enter Username")
     public void inputUserName(String userName) {
-        username.sendKeys((userName));
+        username.sendKeys(userName);
     }
 
     @Step("Enter Password")
     public void inputPassword(String passWord) {
-        password.sendKeys((passWord));
+        password.sendKeys(passWord);
     }
 
     @Step("Click Submit Button")

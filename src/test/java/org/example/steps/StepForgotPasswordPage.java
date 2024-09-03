@@ -7,7 +7,7 @@ import org.openqa.selenium.support.FindBy;
 
 public class StepForgotPasswordPage extends PageObject {
 
-    @FindBy(xpath = "//*[@id='app']/div[1]/div[1]/div/form/h6")
+    @FindBy(xpath = "//*[@class='oxd-form']/h6")
     WebElementFacade forgetLink;
 
 
