@@ -6,15 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7f5a790c-0463-45e9-9a38-a895e6f513d6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serenity.properties" beforeDir="false" afterPath="$PROJECT_DIR$/serenity.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/steps/StepDashBoardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/steps/StepDashBoardPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/steps/StepForgotPasswordPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/steps/StepForgotPasswordPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/steps/StepLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/steps/StepLoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/tests/ApplicationLoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/tests/ApplicationLoginTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/tests/NavigateActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/tests/NavigateActions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/serenity.conf" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/serenity.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,18 +22,19 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
   <component name="ProjectId" id="2fe42BQ4yBN3GInm1SXyo34P0FO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -49,9 +43,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.ApplicationLoginTests.clickForgetPasswordLink.executor": "Run",
+    "JUnit.ApplicationLoginTests.executor": "Run",
+    "JUnit.ApplicationLoginTests.invalidCredentials.executor": "Run",
+    "JUnit.ApplicationLoginTests.successfulLogin.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/ykv12/Documents/Vibha/Automation/Serenity_JUnit5_Demo"
+    "git-widget-placeholder": "VersionUpdate",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/vibha/Documents/Serenity_JUnit4_Demo"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -60,7 +60,7 @@
       <recent name="org.example.tests" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.ApplicationLoginTests.clickForgetPasswordLink">
     <configuration name="ApplicationLoginTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Serenity_JUnit4_Demo" />
       <extension name="coverage">
@@ -87,6 +87,22 @@
       <option name="PACKAGE_NAME" value="org.example.tests" />
       <option name="MAIN_CLASS_NAME" value="org.example.tests.ApplicationLoginTests" />
       <option name="METHOD_NAME" value="clickForgetPasswordLink" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApplicationLoginTests.invalidCredentials" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Serenity_JUnit4_Demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.tests" />
+      <option name="MAIN_CLASS_NAME" value="org.example.tests.ApplicationLoginTests" />
+      <option name="METHOD_NAME" value="invalidCredentials" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -126,10 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ApplicationLoginTests" />
         <item itemvalue="JUnit.ApplicationLoginTests.clickForgetPasswordLink" />
-        <item itemvalue="JUnit.EdgeTests.invalidCredentials" />
+        <item itemvalue="JUnit.ApplicationLoginTests" />
+        <item itemvalue="JUnit.ApplicationLoginTests.invalidCredentials" />
         <item itemvalue="JUnit.ApplicationLoginTests.successfulLogin" />
+        <item itemvalue="JUnit.EdgeTests.invalidCredentials" />
       </list>
     </recent_temporary>
   </component>
